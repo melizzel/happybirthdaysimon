@@ -1,0 +1,56 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bday Terminal</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script type="text/javascript" src="/js/ajax.js"></script>
+  </head>
+
+  <body class="">
+    <div class="container on">
+      <div class="screen">
+        <h3 class="title flash">CONNECTION ESTABLISHED</h3>
+        <div class="box--outer">
+          <div class="box">
+            <div class="box--inner">
+              <div class="content">
+                <div class="holder" id="change1">
+
+                  Hello Simon<br />
+                  <b>It is your birthday today</b> <br />
+                  congratulations.
+                  <br />
+                  <br />
+                  <div class="row">
+                  <form method="post" action="present.html" autocomplete="off">
+                    <div class="row">
+                      <div class="col col__left label">Answer</div>
+                      <div class="col col__center">
+                        <input
+                          type="text"
+                          id="answer"
+                          name="answer"
+                          required="required"
+                          placeholder=""
+                          data-error=""
+                          maxlength="50"
+                          autofocus="true"
+                        />
+                      </div>
+                    </div> 
+                    <div class="row">
+                      <button type="button" id="submit" name="submit" onclick="loadChange1()">
+                        [Submit]
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
